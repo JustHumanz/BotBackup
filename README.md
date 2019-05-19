@@ -27,9 +27,25 @@ chatid = "!! Your chat_id !!"
 ```  
 <b>change with file you want to backup</b>   
 ```
-foln = ["!!! file or a directory !!!","!!! file or a directory !!!"]
+foln = ["!!! file or a directory !!!","*** file or a directory ***"]
 ```
-example
+Example
 ```
 foln = ["/home/humanz/ss.sh","/home/humanz/arch.svg"]
+```
+<b>change with your database config </b>
+```
+db_host = "!! Database hosts !!"
+db_user = "!! Database username !!"
+db_pass = "!! Database password !!"
+db_name = ["!! Database you want to backup !!","!! Database you want to backup !!","!! Database you want to backup !!"]
+backup_dir = "!! directory backup of .sql !!"
+```
+Example
+```
+db_host = "localhost"
+db_user = "root"
+db_pass = "321"
+db_name = ["coba","test","kkk"]
+backup_dir = "/home/humanz/py/backup/db/"
 ```
