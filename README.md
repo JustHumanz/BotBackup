@@ -49,3 +49,7 @@ db_pass = "321"
 db_name = ["coba","test","kkk"]
 backup_dir = "/home/humanz/py/backup/db/"
 ```
+and the last is run the script
+```
+python file-backV2.py
+```
