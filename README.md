@@ -17,11 +17,20 @@ sudo pip install -r requeriments.txt
 ```
 
 # How to Use
-change with your bot ID  
+<b>change with your bot ID  
 ```
 bot = telebot.TeleBot("!!! YOUR BOT ID!!!")  
 ```
 change with your chatid  
 ```
-chatid = "!! Your chat_id !!"
+chatid = "!! Your chat_id !!"  
+```  
+change with file you want to backup  
+</b>
+```
+foln = ["!!! file or a directory !!!","!!! file or a directory !!!"]
+```
+example
+```
+foln = ["/home/humanz/ss.sh","/home/humanz/arch.svg"]
 ```
