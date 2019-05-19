@@ -17,16 +17,15 @@ sudo pip install -r requeriments.txt
 ```
 
 # How to Use
-<b>change with your bot ID  
+<b>change with your bot ID</b>  
 ```
 bot = telebot.TeleBot("!!! YOUR BOT ID!!!")  
 ```
-change with your chatid  
+<b>change with your chatid</b>    
 ```
 chatid = "!! Your chat_id !!"  
 ```  
-change with file you want to backup  
-</b>
+<b>change with file you want to backup</b>   
 ```
 foln = ["!!! file or a directory !!!","!!! file or a directory !!!"]
 ```
